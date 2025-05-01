@@ -141,9 +141,7 @@
         </div>
         <div class="buttons">
             <button id="watch-ad-btn" onclick="watchAd()">Show Ad</button>
-            <button id="watch-ad-btn" onclick="watchAd()">Show Ad2</button>
-            <button id="watch-ad-btn" onclick="watchAd()">Show Ad3</button>
-
+  
         </div>
 
         <!-- Withdraw Section -->
@@ -161,7 +159,7 @@
         </div>
     </div>
 
-<script src='//whephiwums.com/sdk.js' data-zone='9194445' data-sdk='show_9194445'></script>
+<script src='//whephiwums.com/sdk.js' data-zone='9283940' data-sdk='show_9283940'></script>
 
     <script>
         const MIN_WITHDRAW_POINTS = 5;
@@ -185,8 +183,8 @@
 
         // Function to watch an ad and update stats
         function watchAd() {
-            if (typeof show_9194445 === 'function') {
-                show_9194445().then(() => {
+            if (typeof show_9283940 === 'function') {
+                show_9283940().then(() => {
                     // When the ad is shown, we add points
                     watchedAdsCount++;
                     document.getElementById('watched-ads').textContent = watchedAdsCount;
